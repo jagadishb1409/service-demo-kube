@@ -23,7 +23,7 @@ docker push <DOCKER_HUB_USER>/py-red-sql
 cd ../Deploy
 kubectl create -f db-pod.yml
 kubectl create -f db-svc.yml
-kubectl create -f web-pod-1.yml
+kubectl create -f web-pod.yml
 kubectl create -f web-svc.yml
 ```
 
